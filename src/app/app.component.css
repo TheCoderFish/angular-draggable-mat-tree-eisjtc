@@ -1,0 +1,39 @@
+.mat-tree {
+  background-color: rgba(43, 179, 179, 0.15);
+}
+
+.drop-above {
+  border-top: 10px solid #dddddd;
+  margin-top: -10px;
+}
+
+.drop-below {
+  border-bottom: 10px solid #dddddd;
+  margin-bottom: -10px;
+}
+
+.drop-center {
+  background-color: #dddddd;
+}
+
+mat-tree-node {
+  background-color: white;
+  margin: 0px;
+  /* border: 1px solid black; */
+  margin-bottom: 10px;
+}
+
+.parent-category {
+  flex-direction: row;
+  display: flex;
+  place-content: center space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.expand-icon {
+  margin-left: auto;
+}
+/* .cat-node{
+background-color: rgb(156, 32, 32);
+} */
